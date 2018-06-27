@@ -7,5 +7,5 @@ d = []
 for i in range(1, 9999):
     g.append(random.randint(0,i))
     for j in range(len(g)):
-        d.append(g[j])
+        d.append(g[j] * j)
 print("done.")
